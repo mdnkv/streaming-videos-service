@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: videos-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/videos_db
+    username: videos_user
+    password: secret1234
+  jpa:
+    hibernate:
+      ddl-auto: create
+server:
+  port: 8001
